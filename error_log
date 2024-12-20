@@ -1,0 +1,6 @@
+[18-Dec-2024 22:02:20 UTC] PHP Fatal error:  Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(/home/itechblooms/public_html/referral/vendor/codeigniter4/framework/system): Failed to open directory: No such file or directory in /home/itechblooms/public_html/referral/preload.php:84
+Stack trace:
+#0 /home/itechblooms/public_html/referral/preload.php(84): RecursiveDirectoryIterator->__construct('/home/itechbloo...')
+#1 /home/itechblooms/public_html/referral/preload.php(106): preload->load()
+#2 {main}
+  thrown in /home/itechblooms/public_html/referral/preload.php on line 84
